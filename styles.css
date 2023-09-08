@@ -1,0 +1,65 @@
+/* Estilos para o corpo da página */
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&display=swap');
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+    text-align: center;
+
+   
+    background-image: url(mulher_cama.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    
+}
+
+
+
+/* Estilos para o container principal */
+.container {
+    background-color: #fffffffa;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.445);
+    max-width: 350px;
+    margin: 0 auto;
+    margin-top: 50px;
+    height: 200px;
+}
+
+h1.titulo{
+    color: black;
+    margin-top: 50px;
+    font-family: 'Dancing Script', cursive;
+
+    font-size: 3em;
+
+    text-shadow: 2px 2px #ffffff;
+
+
+}
+
+/* Estilos para o título */
+h1.contato {
+    color: #333;
+}
+
+/* Estilos para o botão do WhatsApp */
+.btn-whatsapp {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #25d366;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 20px;
+    transition: background-color 0.3s;
+}
+
+.btn-whatsapp:hover {
+    background-color: #128c7e;
+}
+
